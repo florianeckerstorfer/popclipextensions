@@ -1,0 +1,1 @@
+subl $POPCLIP_TEXT

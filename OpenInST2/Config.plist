@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Actions</key>
+    <array>
+        <dict>
+            <key>Image File</key>
+            <string>openinst2.png</string>
+            <key>Shell Script File</key>
+            <string>openinst2.sh</string>
+            <key>Stoppable</key>
+            <true/>
+            <key>Title</key>
+            <string>Open in Sublime Text 2</string>
+        </dict>
+    </array>
+    <key>Extension Description</key>
+    <string>Open the selected file in Sublime Text 2</string>
+    <key>Extension Identifier</key>
+    <string>com.braincrafted.popclip.extension.openinst2</string>
+    <key>Extension Name</key>
+    <dict>
+        <key>en</key>
+        <string>Open in Sublime Text 2</string>
+    </dict>
+    <key>Required Software Version</key>
+    <integer>693</integer>
+</dict>
+</plist>
