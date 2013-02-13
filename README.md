@@ -18,5 +18,9 @@ Installation
 Before installing any of these extensions, you need to install [Popclip](http://shrt.at/MF).
 
 1. Download the repository
-2. Double click the `.popclipext` file
+2. Double click the `OpenInST2.popclipext` file
 3. Done
+
+Instead of opening the `OpenInST2.popclipext` you can open a Terminal window, navigate to the `popclipextensions` directory and execute
+
+    $ make install
