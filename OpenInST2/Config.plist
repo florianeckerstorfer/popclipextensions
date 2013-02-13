@@ -9,14 +9,22 @@
             <string>openinst2.png</string>
             <key>Shell Script File</key>
             <string>openinst2.sh</string>
-            <key>Stoppable</key>
-            <true/>
             <key>Title</key>
-            <string>Open in Sublime Text 2</string>
+            <dict>
+                <key>en</key>
+                <string>Open in Sublime Text 2</string>
+            </dict>
+            <key>Requirements</key>
+            <array>
+                <string>path</string>
+            </array>
         </dict>
     </array>
     <key>Extension Description</key>
-    <string>Open the selected file in Sublime Text 2</string>
+    <dict>
+        <key>en</key>
+        <string>Open the selected file in Sublime Text 2</string>
+    </dict>
     <key>Extension Identifier</key>
     <string>com.braincrafted.popclip.extension.openinst2</string>
     <key>Extension Name</key>
@@ -24,7 +32,7 @@
         <key>en</key>
         <string>Open in Sublime Text 2</string>
     </dict>
-    <key>Required Software Version</key>
-    <integer>693</integer>
+    <key>Version</key>
+    <integer>2</integer>
 </dict>
 </plist>
