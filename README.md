@@ -5,18 +5,27 @@ These are my extensions for [Popclip](http://pilotmoon.com/popclip/) by Pilotmoo
 
 Handcrafted in Vienna by [Florian Eckerstorfer](http://florianeckerstorfer.com).
 
+
 Extensions
 ----------
 
 The following extensions are included in this repository:
 
-* **Open in Sublime Text 2**: Opens the currently selected text as file in Sublime Text 2.
-* **DuckDuckGo**: Search DuckDuckGo with selected text.
+- **Open in Sublime Text 2**: Opens the currently selected text as file in Sublime Text 2.
+- **DuckDuckGo**: Search DuckDuckGo with selected text.
+
+
+Download
+--------
+
+- [Open in Sublime Text 2](https://s3.amazonaws.com/braincrafted.com/popclip/OpenInST2.popclipext.zip)
+- [DuckDuckGo](https://s3.amazonaws.com/braincrafted.com/popclip/DuckDuckGo.popclipext.zip)
+
 
 Installation
 ------------
 
-Before installing any of these extensions, you need to install [Popclip](http://shrt.at/MF) and download (or clone this repository).
+Before installing any of these extensions, you need to install [Popclip](http://shrt.at/MF) and download the extension (or clone this repository).
 
 1. Double click the `.popclipext` file
 2. Done
