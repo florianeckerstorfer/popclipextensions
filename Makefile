@@ -1,10 +1,10 @@
-clean:
+clean-openinst2:
 	rm -rf OpenInST2.popclipext
 
-package: clean
+package-openinst2: clean-openinst2
 	cp -r OpenInST2/ OpenInST2.popclipext
 
-install: package
+install-openinst2: package-openinst2
 	open -a /Applications/PopClip.app/ OpenInST2.popclipext
 
 clean-duckduckgo:
