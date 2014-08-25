@@ -6,13 +6,13 @@
     <array>
         <dict>
             <key>Image File</key>
-            <string>openinst2.png</string>
+            <string>openinst.png</string>
             <key>Shell Script File</key>
-            <string>openinst2.sh</string>
+            <string>openinst.sh</string>
             <key>Title</key>
             <dict>
                 <key>en</key>
-                <string>Open in Sublime Text 2</string>
+                <string>Sublime Text</string>
             </dict>
             <key>Requirements</key>
             <array>
@@ -23,16 +23,16 @@
     <key>Extension Description</key>
     <dict>
         <key>en</key>
-        <string>Open the selected file in Sublime Text 2</string>
+        <string>Open the selected file in Sublime Text</string>
     </dict>
     <key>Extension Identifier</key>
-    <string>com.braincrafted.popclip.extension.openinst2</string>
+    <string>ec.florian.popclip.extension.openinst</string>
     <key>Extension Name</key>
     <dict>
         <key>en</key>
-        <string>Open in Sublime Text 2</string>
+        <string>Sublime Text</string>
     </dict>
     <key>Version</key>
-    <integer>2</integer>
+    <integer>3</integer>
 </dict>
 </plist>

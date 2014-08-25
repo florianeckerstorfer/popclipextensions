@@ -9,16 +9,16 @@ Handcrafted in Vienna by [Florian Eckerstorfer](http://florianeckerstorfer.com).
 Extensions
 ----------
 
-The following extensions are included in this repository:
+This repository contains the following extensions:
 
-- **Open in Sublime Text 2**: Opens the currently selected text as file in Sublime Text 2.
+- **Open in Sublime Text**: Opens the currently selected text as file in Sublime Text.
 - **DuckDuckGo**: Search DuckDuckGo with selected text.
 
 
 Download
 --------
 
-- [Open in Sublime Text 2](https://s3.amazonaws.com/braincrafted.com/popclip/OpenInST2.popclipext.zip)
+- [Open in Sublime Text](https://s3.amazonaws.com/braincrafted.com/popclip/OpenInST.popclipext.zip)
 - [DuckDuckGo](https://s3.amazonaws.com/braincrafted.com/popclip/DuckDuckGo.popclipext.zip)
 
 
@@ -32,7 +32,7 @@ Before installing any of these extensions, you need to install [Popclip](http://
 
 Instead of opening the `.popclipext` you can open a Terminal window, navigate to the `popclipextensions` directory and execute
 
-    $ make install-openinst2
+    $ make install-openinst
     $ make install-duckduckgo
 
 
