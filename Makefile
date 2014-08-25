@@ -7,6 +7,15 @@ package-openinst: clean-openinst
 install-openinst: package-openinst
 	open -a /Applications/PopClip.app/ OpenInST.popclipext
 
+clean-phpstorm:
+	rm -rf PHPStorm.popclipext
+
+package-phpstorm: clean-phpstorm
+	cp -r PHPStorm/ PHPStorm.popclipext
+
+install-phpstorm: package-phpstorm
+	open -a /Applications/PopClip.app/ PHPStorm.popclipext
+
 clean-duckduckgo:
 	rm -rf DuckDuckGo.popclipext
 

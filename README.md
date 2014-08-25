@@ -1,9 +1,7 @@
 Florians Popclip extensions
 ===========================
 
-These are my extensions for [Popclip](http://pilotmoon.com/popclip/) by Pilotmoon.
-
-Handcrafted in Vienna by [Florian Eckerstorfer](http://florianeckerstorfer.com).
+This repository contains extensions for [Popclip](http://pilotmoon.com/popclip/). Handcrafted in Vienna by [Florian Eckerstorfer](http://florianeckerstorfer.com).
 
 
 Extensions
@@ -11,15 +9,9 @@ Extensions
 
 This repository contains the following extensions:
 
-- **Open in Sublime Text**: Opens the currently selected text as file in Sublime Text.
-- **DuckDuckGo**: Search DuckDuckGo with selected text.
-
-
-Download
---------
-
-- [Open in Sublime Text](https://s3.amazonaws.com/braincrafted.com/popclip/OpenInST.popclipext.zip)
-- [DuckDuckGo](https://s3.amazonaws.com/braincrafted.com/popclip/DuckDuckGo.popclipext.zip)
+- **[Sublime Text](http://cdn.florian.ec/OpenInST.zip)**: Opens the currently selected text as file in Sublime Text.
+- **[DuckDuckGo](http://cdn.florian.ec/DuckDuckGo.zip)**: Search DuckDuckGo with selected text.
+- **[PHPStorm](http://cdn.florian.ec/PHPStorm.zip)**: Open selected file names in PHPStorm.
 
 
 Installation
@@ -34,6 +26,7 @@ Instead of opening the `.popclipext` you can open a Terminal window, navigate to
 
     $ make install-openinst
     $ make install-duckduckgo
+    $ make install-phpstorm
 
 
 License
