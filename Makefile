@@ -24,3 +24,12 @@ package-duckduckgo: clean-duckduckgo
 
 install-duckduckgo: package-duckduckgo
 	open -a /Applications/PopClip.app/ DuckDuckGo.popclipext
+
+clean-copy-plain:
+	rm -rf CopyPlain.popclipext
+
+package-copy-plain: clean-copy-plain
+	cp -r CopyPlain/ CopyPlain.popclipext
+
+install-copy-plain: package-copy-plain
+	open -a /Applications/PopClip.app/ CopyPlain.popclipext

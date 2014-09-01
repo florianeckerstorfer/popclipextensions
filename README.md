@@ -1,7 +1,7 @@
 Florians Popclip extensions
 ===========================
 
-This repository contains extensions for [Popclip](http://pilotmoon.com/popclip/). Handcrafted in Vienna by [Florian Eckerstorfer](http://florianeckerstorfer.com).
+This repository contains extensions for [Popclip](http://pilotmoon.com/popclip/). Handcrafted in Vienna by [Florian Eckerstorfer](https://florian.ec).
 
 
 Extensions
@@ -9,9 +9,10 @@ Extensions
 
 This repository contains the following extensions:
 
-- **[Sublime Text](http://cdn.florian.ec/OpenInST.zip)**: Opens the currently selected text as file in Sublime Text.
-- **[DuckDuckGo](http://cdn.florian.ec/DuckDuckGo.zip)**: Search DuckDuckGo with selected text.
-- **[PHPStorm](http://cdn.florian.ec/PHPStorm.zip)**: Open selected file names in PHPStorm.
+- **[Sublime Text](http://cdn.florian.ec/OpenInST.popclipext.zip)**: Opens the currently selected text as file in Sublime Text.
+- **[DuckDuckGo](http://cdn.florian.ec/PHPStorm.popclipext.zip)**: Search DuckDuckGo with selected text.
+- **[PHPStorm](http://cdn.florian.ec/DuckDuckGo.popclipext.zip)**: Open selected file names in PHPStorm.
+- **[Copy Plain](http://cdn.florian.ec/CopyPlain.popclipext.zip)**: Copy selected text as plain text and remove leading and trailing whitespaces.
 
 
 Installation
@@ -27,6 +28,7 @@ Instead of opening the `.popclipext` you can open a Terminal window, navigate to
     $ make install-openinst
     $ make install-duckduckgo
     $ make install-phpstorm
+    $ make install-copy-plain
 
 
 License

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Actions</key>
+    <array>
+        <dict>
+            <key>Shell Script File</key>
+            <string>copy-plain.sh</string>
+            <key>Title</key>
+            <dict>
+                <key>en</key>
+                <string>Copy =</string>
+            </dict>
+        </dict>
+    </array>
+    <key>Extension Description</key>
+    <dict>
+        <key>en</key>
+        <string>Copy as plain text</string>
+    </dict>
+    <key>Extension Identifier</key>
+    <string>ec.florian.popclip.extension.copy-plain</string>
+    <key>Extension Name</key>
+    <dict>
+        <key>en</key>
+        <string>Copy Plain</string>
+    </dict>
+    <key>Version</key>
+    <integer>1</integer>
+</dict>
+</plist>
