@@ -33,3 +33,5 @@ package-copy-plain: clean-copy-plain
 
 install-copy-plain: package-copy-plain
 	open -a /Applications/PopClip.app/ CopyPlain.popclipext
+
+package: package-duckduckgo package-phpstorm package-openinst package-copy-plain
