@@ -13,6 +13,7 @@ This repository contains the following extensions:
 - **[DuckDuckGo](http://cdn.florian.ec/PHPStorm.popclipext.zip)**: Search DuckDuckGo with selected text.
 - **[PHPStorm](http://cdn.florian.ec/DuckDuckGo.popclipext.zip)**: Open selected file names in PHPStorm.
 - **[Copy Plain](http://cdn.florian.ec/CopyPlain.popclipext.zip)**: Copy selected text as plain text and remove leading and trailing whitespaces.
+- **[Run Query in Sequel Pro](http://cdn.florian.ec/RunQueryInSequelPro.popclipext.zip)**: Executes the selected query in Sequel Pro.
 
 
 Installation
@@ -29,6 +30,7 @@ Instead of opening the `.popclipext` you can open a Terminal window, navigate to
     $ make install-duckduckgo
     $ make install-phpstorm
     $ make install-copy-plain
+    $ make install-run-query-in-sequel-pro
 
 
 License
@@ -36,7 +38,7 @@ License
 
     The MIT License (MIT)
 
-    Copyright (c) 2013 Florian Eckerstorfer
+    Copyright (c) 2013-2014 Florian Eckerstorfer
 
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal

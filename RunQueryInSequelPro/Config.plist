@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Actions</key>
+    <array>
+        <dict>
+            <key>Image File</key>
+            <string>run-query-in-sequel-pro.png</string>
+            <key>Shell Script File</key>
+            <string>run-query-in-sequel-pro.php</string>
+            <key>Script Interpreter</key>
+            <string>/usr/bin/php</string>
+            <key>Title</key>
+            <dict>
+                <key>en</key>
+                <string>Run Query in Sequel Pro</string>
+            </dict>
+        </dict>
+    </array>
+    <key>Extension Description</key>
+    <dict>
+        <key>en</key>
+        <string>Run the selected query in Sequel Pro</string>
+    </dict>
+    <key>Extension Identifier</key>
+    <string>ec.florian.popclip.extension.run-query-in-sequel-pro</string>
+    <key>Extension Name</key>
+    <dict>
+        <key>en</key>
+        <string>Run Query in Sequel Pro</string>
+    </dict>
+    <key>Version</key>
+    <integer>1</integer>
+</dict>
+</plist>

@@ -34,4 +34,13 @@ package-copy-plain: clean-copy-plain
 install-copy-plain: package-copy-plain
 	open -a /Applications/PopClip.app/ CopyPlain.popclipext
 
+clean-run-query-in-sequel-pro:
+	rm -rf RunQueryInSequelPro.popclipext
+
+package-run-query-in-sequel-pro: clean-run-query-in-sequel-pro
+	cp -r RunQueryInSequelPro/ RunQueryInSequelPro.popclipext
+
+install-run-query-in-sequel-pro: package-run-query-in-sequel-pro
+	open -a /Applications/PopClip.app/ RunQueryInSequelPro.popclipext
+
 package: package-duckduckgo package-phpstorm package-openinst package-copy-plain
